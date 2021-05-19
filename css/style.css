@@ -1,1 +1,298 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);@import url(https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap);@import url(https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap);body{margin:0;padding:0;box-sizing:border-box;overflow-x:hidden}html{font-size:62.5%}::selection{background:gold;color:#000}.header{height:100vh;background-image:linear-gradient(90deg,#292929 69%,transparent 31%);overflow:hidden;position:relative}p{margin-bottom:0!important}h2{margin-bottom:0}ul{list-style:none}.header .row{padding-top:2rem}.menu-logo{display:flex;justify-content:center;align-items:center;z-index:12}.hamburger-menu{width:1.65rem;height:1.6rem;cursor:pointer;position:relative;padding:3rem}.bar{position:absolute;width:2rem;height:.3rem;left:0;background-color:#fff;transition:all .5s ease-in-out}.bar::after,.bar::before{content:"";position:absolute;height:.3rem;background-color:#fff;left:0;transition:all .5s ease-in-out}.bar::before{transform:translateY(-7px);width:2.7rem}.bar::after{transform:translateY(7px);width:1.3rem}.hamburger-menu.open .bar{transform:translateX(-10px);background:0 0}.hamburger-menu.open .bar::before{transform:rotate(45deg) translate(8px,-8px)}.hamburger-menu.open .bar::after{transform:rotate(-45deg) translate(8px,8px);width:2.7rem}.f-icons{font-size:2.3rem;color:#292929;cursor:pointer;display:flex;justify-content:center;align-items:center;padding-right:.5rem;height:100%}.f-icons i{padding-right:2.5rem}.f-icons i:hover{color:gold}.logo{display:grid;place-items:center}.elogo{width:30rem;transition:1s}#menu-wrapper{width:31%;height:100%;position:absolute;background:#fff;z-index:10;right:0;display:none;padding-top:5rem}.cover{height:100%;display:flex;align-items:center;flex-direction:column;justify-content:space-evenly}.trending{display:none}.trending h2{font-weight:700;font-family:Poppins,sans-serif}.home-content{background-image:linear-gradient(rgba(0,0,0,.5) 100%,transparent),url(../images/hannah-morgan-ycVFts5Ma4s-unsplash-min.jpg);height:100%;margin:4rem 3rem 0;background-size:cover;display:flex;flex-direction:column;justify-content:center;align-items:center;box-shadow:100px 0 0 #292929}.home-content h1{color:gold;text-transform:uppercase;font-family:"Alfa Slab One",cursive;font-size:8rem}.home-content h2{color:#f0f8ff;font-family:Poppins,sans-serif;font-size:5rem;word-spacing:5rem}.home-content button{width:16rem;height:4rem;margin-top:5rem;background-color:transparent;color:#fff;border-radius:2rem;overflow:hidden;font-size:1.8rem;border:2px solid gold;cursor:pointer}.top-categories{color:gold;text-align:center;font-family:Goldman,cursive;font-size:5rem;line-height:8rem;background-color:#000}.s2{background-color:#f5f5f5;margin-top:.7rem}.jeans,.t-shirts{display:flex;justify-content:center;flex-direction:column}.s2 img{width:100%;height:100%}.s3{background:#f5f5f5}.carousel-1{margin:0 2rem 3rem 2rem;background:#fff;border:.5px solid #dcdcdc;position:relative}.cheader div{height:5rem}.cheader div button{width:8rem;background:gold;border:none;border-radius:.5rem}.cheader div:nth-child(1){padding:1rem 0 0 3rem}.cheader div:nth-child(2){display:flex;justify-content:flex-end;align-items:center;padding-right:3%}.carousel1 .item img{height:32rem}.owl-theme .owl-nav{position:absolute;top:25%;font-size:7rem;width:99%;display:flex;justify-content:space-between}.owl-theme .owl-nav button.owl-next:hover,.owl-theme .owl-nav button.owl-prev:hover{background:#fff!important;color:#000;border:2px solid grey}.owl-theme .owl-nav button.owl-next{margin-right:1.5rem}footer{background:#181818}.footer-logo{width:27rem;margin:5rem 0 2rem -1rem}footer h1{color:gold;font-family:Poppins,sans-serif}footer ul{color:#f5f5f5;font-size:1.5rem;text-transform:capitalize;padding-left:5rem}.company{padding-left:4.3rem}.mail input:nth-child(1){background:0 0;border:none;border-bottom:2px solid gold;width:15rem;height:2.5rem}.mail input:nth-child(1)::placeholder{color:#fff;font-size:1.5rem}.mail button{width:10rem;height:3rem;background:gold;border:none;margin-left:-.5rem;font-size:1.5rem}.cod,.return-policy{display:flex;color:#fff;font-size:1.5rem;margin-left:5rem}.line{width:92%;background-color:#f5f5f5;height:.1rem;margin-left:4%}.rights{width:100%;height:8rem;display:flex;color:gold;justify-content:center;align-items:center;font-size:1.7rem}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap);
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+::selection {
+  background: gold;
+  color: #000;
+}
+.header {
+  height: 100vh;
+  background-image: linear-gradient(90deg, #292929 69%, transparent 31%);
+  overflow: hidden;
+  position: relative;
+}
+p {
+  margin-bottom: 0 !important;
+}
+h2 {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+}
+.header .row {
+  padding-top: 2rem;
+}
+.menu-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 13;
+  position: relative;
+}
+.hamburger-menu {
+  width: 1.65rem;
+  height: 1.6rem;
+  cursor: pointer;
+  position: relative;
+  padding: 3rem;
+}
+.bar {
+  position: absolute;
+  width: 2rem;
+  height: 0.3rem;
+  left: 0;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.bar::after,
+.bar::before {
+  content: "";
+  position: absolute;
+  height: 0.3rem;
+  background-color: #fff;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+.bar::before {
+  transform: translateY(-7px);
+  width: 2.7rem;
+}
+.bar::after {
+  transform: translateY(7px);
+  width: 1.3rem;
+}
+.hamburger-menu.open .bar {
+  transform: translateX(-10px);
+  background: 0 0;
+}
+.hamburger-menu.open .bar::before {
+  transform: rotate(45deg) translate(8px, -8px);
+}
+.hamburger-menu.open .bar::after {
+  transform: rotate(-45deg) translate(8px, 8px);
+  width: 2.7rem;
+}
+.f-icons {
+  font-size: 2.3rem;
+  color: #292929;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0.5rem;
+  height: 100%;
+}
+.f-icons i {
+  padding-right: 2.5rem;
+}
+.f-icons i:hover {
+  color: gold;
+}
+.logo {
+  display: grid;
+  place-items: center;
+}
+.elogo {
+  width: 30rem;
+  transition: 1s;
+}
+#menu-wrapper {
+  width: 31%;
+  height: 100%;
+  position: absolute;
+  background: #fff;
+  z-index: 10;
+  right: 0;
+  display: none;
+  padding-top: 5rem;
+}
+.cover {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.trending {
+  display: none;
+}
+.trending h2 {
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+}
+.home-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) 100%, transparent),
+    url(../images/hannah-morgan-ycVFts5Ma4s-unsplash-min.jpg);
+  height: 100%;
+  margin: 4rem 3rem 0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 100px 0 0 #292929;
+}
+.home-content h1 {
+  color: gold;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 8rem;
+}
+.home-content h2 {
+  color: #f0f8ff;
+  font-family: Poppins, sans-serif;
+  font-size: 5rem;
+  word-spacing: 5rem;
+}
+.home-content button {
+  width: 16rem;
+  height: 4rem;
+  margin-top: 5rem;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 2rem;
+  overflow: hidden;
+  font-size: 1.8rem;
+  border: 2px solid gold;
+  cursor: pointer;
+}
+.top-categories {
+  color: gold;
+  text-align: center;
+  font-family: Goldman, cursive;
+  font-size: 5rem;
+  line-height: 8rem;
+  background-color: #000;
+}
+.s2 {
+  background-color: #f5f5f5;
+  margin-top: 0.7rem;
+}
+.jeans,
+.t-shirts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.s2 img {
+  width: 100%;
+  height: 100%;
+}
+.s3 {
+  background: #f5f5f5;
+}
+.carousel-1 {
+  margin: 0 2rem 3rem 2rem;
+  background: #fff;
+  border: 0.5px solid #dcdcdc;
+  position: relative;
+}
+.cheader div {
+  height: 5rem;
+}
+.cheader div button {
+  width: 8rem;
+  background: gold;
+  border: none;
+  border-radius: 0.5rem;
+}
+.cheader div:nth-child(1) {
+  padding: 1rem 0 0 3rem;
+}
+.cheader div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3%;
+}
+.carousel1 .item img {
+  height: 32rem;
+}
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 25%;
+  font-size: 7rem;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+}
+.owl-theme .owl-nav button.owl-next:hover,
+.owl-theme .owl-nav button.owl-prev:hover {
+  background: #fff !important;
+  color: #000;
+  border: 2px solid grey;
+}
+.owl-theme .owl-nav button.owl-next {
+  margin-right: 1.5rem;
+}
+footer {
+  background: #181818;
+}
+.footer-logo {
+  width: 27rem;
+  margin: 5rem 0 2rem -1rem;
+}
+footer h1 {
+  color: gold;
+  font-family: Poppins, sans-serif;
+}
+footer ul {
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding-left: 5rem;
+}
+.company {
+  padding-left: 4.3rem;
+}
+.mail input:nth-child(1) {
+  background: 0 0;
+  border: none;
+  border-bottom: 2px solid gold;
+  width: 15rem;
+  height: 2.5rem;
+}
+.mail input:nth-child(1)::placeholder {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.mail button {
+  width: 10rem;
+  height: 3rem;
+  background: gold;
+  border: none;
+  margin-left: -0.5rem;
+  font-size: 1.5rem;
+}
+.cod,
+.return-policy {
+  display: flex;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 5rem;
+}
+.line {
+  width: 92%;
+  background-color: #f5f5f5;
+  height: 0.1rem;
+  margin-left: 4%;
+}
+.rights {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  color: gold;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+}
