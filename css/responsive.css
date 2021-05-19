@@ -1,0 +1,125 @@
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 55%;
+  }
+  .hamburger-menu.open .bar::after,
+  .hamburger-menu.open .bar::before {
+    background: #292929;
+  }
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #menu-wrapper {
+    width: 100%;
+  }
+  .top-categories {
+    font-size: 4rem;
+  }
+  .f-icons {
+    display: none;
+  }
+  .header {
+    background: #292929;
+  }
+  .elogo {
+    padding-right: 2rem;
+  }
+  .home-content {
+    margin: 2rem 0;
+    height: 100%;
+  }
+  .home-content-inside {
+    padding-left: 5rem;
+  }
+  .home-content h1 {
+    font-size: 6rem;
+  }
+  .s2 {
+    margin-top: 0;
+  }
+  .carousel-1 {
+    margin: 0 0 2rem 0;
+  }
+  footer .container {
+    padding: 0 40px 0 40px;
+  }
+  .company {
+    padding-left: 0;
+  }
+  footer .col-12 {
+    margin-bottom: 20px;
+  }
+  footer ul {
+    padding-left: 0;
+  }
+  .return-policy,
+  .cod {
+    margin-left: 0;
+  }
+  .footer-wrapper {
+    padding-left: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* md */
+  html {
+    font-size: 58%;
+  }
+  .home-content {
+    margin: 2rem 0;
+    height: 100%;
+  }
+  #menu-wrapper {
+    width: 100%;
+  }
+  .hamburger-menu.open .bar::after,
+  .hamburger-menu.open .bar::before {
+    background: #292929;
+  }
+  .home-content-inside {
+    padding-left: 5rem;
+  }
+  .home-content h1 {
+    font-size: 6rem;
+  }
+  footer ul {
+    padding-left: 0;
+  }
+  .return-policy,
+  .cod {
+    margin-left: 0;
+  }
+  .company {
+    padding-left: 0;
+  }
+  .footer-wrapper {
+    padding-left: 10%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-wrapper {
+    padding-left: 10%;
+  }
+  footer ul {
+    padding-left: 0;
+  }
+  .company {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1028px) and (min-width: 992px) {
+  .mail input:nth-child(1) {
+    width: 13rem;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 998px) {
+  .home-content {
+    height: 84.7%;
+  }
+}
+@media only screen and (max-width: 998px) and (orientation: landscape) {
+  .header {
+    height: 120vh;
+  }
+}
